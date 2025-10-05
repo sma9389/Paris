@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+}
+
+.parallax {
+  min-height: 800px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.p1 {
+  background-image: url('Image/Car\ photo.JPG');
+  background-attachment: fixed;
+}
+
+.p2 {
+  background-image: url('Image/Matcha\ shop\ photo.jpg');
+  background-attachment: fixed;
+}
+
+.p3 {
+  background-image: url('Image/Behind\ the\ louver.jpg');
+  background-attachment: fixed;
+}
+
+.p4 {
+  background-image: url('Image/Bookstore\ .jpg');
+  background-attachment: fixed;
+}
+
+.p5 {
+  background-image: url('Image/The\ Seine\ River.jpg');
+  background-attachment: fixed;
+}
+
+.p6 {
+  background-image: url('Image/Bambini.jpg');
+  background-attachment: fixed;
+}
+
+.p7 {
+  background-image: url('Image/Eiffel\ tower.jpg');
+  background-attachment: fixed;
+}
+
+.textbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgba(225, 225, 225, 0.7);
+  color: black;
+
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.textbox h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.textbox p {
+  font-size: 20px;
+  line-height: 1.5;
+}
